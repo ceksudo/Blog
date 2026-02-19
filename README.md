@@ -26,7 +26,7 @@ steps are only needed once and not for subsequent changes you might want to
 make:
 
 1.  Fork the `DAIRLab` repository on GitHub to create `origin`.
-    Visit [resolution](https://github.com/ceksudo/Blog) GitHub repository and click the `Fork` button.
+    Visit [Blog](https://github.com/ceksudo/Blog) GitHub repository and click the `Fork` button.
 
 2.  Make a `local` clone of your fork.
 
@@ -37,12 +37,12 @@ make:
 3.  Add a remote pointing from `local` to `upstream`.
 
     ```shell
-    cd weaver
+    cd Blog
     git remote add upstream git@github.com:ceksudo/Blog.git
     ```
 ### Making changes
 
-Here is a detailed outline of the steps needed to make changes to DAIRLab.
+Here is a detailed outline of the steps needed to make changes to Blog.
 
 
 1. Make a local branch in your clone and pull any recent changes into it.

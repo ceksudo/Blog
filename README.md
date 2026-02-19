@@ -1,5 +1,5 @@
-# DAIRLab
-Empowering the Youth to Solve Africa's most Pressing Challenges
+# TexkLab Blog Webpage
+AI Research Lab
 
 # How to Contribute
 
@@ -26,19 +26,19 @@ steps are only needed once and not for subsequent changes you might want to
 make:
 
 1.  Fork the `DAIRLab` repository on GitHub to create `origin`.
-    Visit [resolution](https://github.com/ceksudo/DAIRLab) GitHub repository and click the `Fork` button.
+    Visit [resolution](https://github.com/ceksudo/Blog) GitHub repository and click the `Fork` button.
 
 2.  Make a `local` clone of your fork.
 
     ```shell
-    git clone git@github.com:_your_user_name_/DAIRLab.git
+    git clone git@github.com:_your_user_name_/Blog.git
     ```
 
 3.  Add a remote pointing from `local` to `upstream`.
 
     ```shell
     cd weaver
-    git remote add upstream git@github.com:ceksudo/DAIRLab.git
+    git remote add upstream git@github.com:ceksudo/Blog.git
     ```
 ### Making changes
 
@@ -78,7 +78,7 @@ Here is a detailed outline of the steps needed to make changes to DAIRLab.
    ```
 
 5. Select the branch you are working on in the drop-down menu of branches on
-   https://github.com/_your_user_name_/DAIRLab . Then hit the `Compare and pull
+   https://github.com/_your_user_name_/Blog . Then hit the `Compare and pull
    request` button.
 
 6. Respond to feedback, which may involve making new commits.
@@ -117,7 +117,7 @@ Here is a detailed outline of the steps needed to make changes to DAIRLab.
     of the `upstream` repository. The reviewer may do this without
     being asked.
 
-    Select the `Squash and merge` option on https://github.com/ceksudo/DAIRLab
+    Select the `Squash and merge` option on https://github.com/ceksudo/Blog
     or use the command line instructions found on that page. Edit the commit message
     as appropriate for the squashed commit.
 
@@ -144,8 +144,8 @@ use GitHub pull requests for this purpose.
 Weekend Paper Reading Contribution
    - change into `web-page` directory
    - change into `blog`
-   - change into the current week `[date-week-number]` directory, eg: `2025-03-08-week-1` folder
-   - create a markdown file using this naming converstion `[paper-number].md` which will be given eg `paper-1.md`
+   - change into the current week `[date-month-number]` directory, eg: `2025-03-08-may` folder
+   - create a markdown file using this naming converstion (index count start from 1) `[paper-paperType-AbbreviatedTitle-indexNUMBER].md` for example `paper-acl-ABCD-1.md`
    - Inside file you state your the paper title and your name using markdown styling and Then you go on to write your contribution and understanting after reading the research paper in a form that you write, revise, and restructure to showcase your thinking and understanding. eg:
    ```sh
     ---

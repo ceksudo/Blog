@@ -16,7 +16,7 @@ There will be three Git repositories involved:
 
 1.  *upstream* - the resolution repository on GitHub.
 2.  *origin* - your GitHub fork of `upstream`. This repository
-    will typically be at a URL that looks like `github.com/_your_user_name_/DAIRLab`
+    will typically be at a URL that looks like `github.com/_your_user_name_/Blog`
 3.  *local* - your local clone of `origin`
 
 ### First time setup

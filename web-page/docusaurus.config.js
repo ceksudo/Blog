@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Technical & Scientific Writing @ TexkLab',
-  tagline: 'Artificial Intelligence Research Lab',
+  tagline: 'Blog Post on Applied Artificial Intelligence',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
@@ -75,7 +75,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/dairlab-social-card.png',
       navbar: {
-        title: 'TexkLab',
+        title: 'Blog@TexkLab',
         logo: {
           alt: 'TexkLab Logo',
           src: 'img/logo.jpg',

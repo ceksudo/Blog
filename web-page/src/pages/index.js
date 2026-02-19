@@ -20,7 +20,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="docs/about">
-            About us
+            How to write and design your own scientific research paper!
           </Link>
         </div>
       </div>
@@ -32,8 +32,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`DAIRLab | ${siteConfig.title}`}
-      description="Data and AI Research Lab for advancing AI Education and Research<head />">
+      title={`Blog@TexkLab | ${siteConfig.title}`}
+      description="Technical and Scientific Writing at TexkLab<head />">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

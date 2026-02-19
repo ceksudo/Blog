@@ -1,10 +1,12 @@
 ceksudo:
   name: PAUL OFFEI
-  title: Research Software Engineering Manager @ YouthInAI
-  url: https://github.com/ceksudo
+  title: Team Lead @ TexkLab
+  url: https://poatai.netlify.app
   image_url: https://github.com/ceksudo.png
   page: true
   socials:
-    x: ceksudo
+    linkedin: ceksudo
     github: ceksudo
+    x: ceksudo
+    website: https://poatai.netlify.app
 

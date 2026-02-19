@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Welcome to DAIRLab',
-  tagline: 'DAIRLab stands for Data and AI Research Lab under YouthInAI with the mission of driving general innovative research for social good and empowering youth to solve challenges in Africa',
+  title: 'Technical & Scientific Writing @ TexkLab',
+  tagline: 'Artificial Intelligence Research Lab',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
@@ -75,22 +75,22 @@ const config = {
       // Replace with your project's social card
       image: 'img/dairlab-social-card.png',
       navbar: {
-        title: 'DAIRLab',
+        title: 'TexkLab',
         logo: {
-          alt: 'DAIRLab Logo',
-          src: 'img/logo.png',
+          alt: 'TexkLab Logo',
+          src: 'img/logo.jpg',
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Workshop',
+            label: 'Technical Writing',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://youthinai.org',
-            label: 'YouthInAI',
+            href: 'https://texklab.netlify.app/',
+            label: 'TexkLab',
             position: 'right',
           },
         ],
@@ -113,22 +113,22 @@ const config = {
               
               {
                 label: 'X',
-                href: 'https://x.com/youthin_ai',
+                href: 'https://x.com/Texk_Lab',
               },
 
               {
                 label: 'Linkedin',
-                href: 'https://www.linkedin.com/company/youth-in-ai/',
+                href: 'https://www.linkedin.com/company/texklab/',
               },
 
               {
-                label: 'Facebook',
-                href: 'https://facebook.com/youthinai',
+                label: 'YouTube',
+                href: 'https://www.youtube.com/@TexkLab',
               },
 
               {
-                label: 'Instagram',
-                href: 'https://www.instagram.com/youthin.ai/',
+                label: 'WhatApp',
+                href: 'https://whatsapp.com/channel/0029Vb1VE4j0bIdusAITnW3u',
               },
             ],
           },
@@ -141,12 +141,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/ceksudo/DAIRLab',
+                href: 'https://github.com/ceksudo/Blog',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()}  @ DAIRLab`,
+        copyright: `Copyright © ${new Date().getFullYear()}  @ TexkLab`,
       },
       prism: {
         theme: prismThemes.github,
